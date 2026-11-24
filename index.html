@@ -6345,10 +6345,10 @@ OJBBB82WpfxR50mKDIhNOSQuUiQNl1bGAwMeVffzEAJObRmMgzYpYsqpok0AWF+RIAAAAAAAAAA=
       dailySeed = dailyMode ? todaySeed() : 0;
       dailyProgress.hidden = !dailyMode;
       if (dailyMode) {
-        hint.textContent = 'تا ' + number.format(dailyMoveLimit) + ' حرکت، ' + number.format(streakTarget) +
+        hint.textContent = 'تا اماده شدن سفارشت بازی کن و تا ' + number.format(dailyMoveLimit) + ' حرکت، ' + number.format(streakTarget) +
           ' جفت پشت‌سرهم پیدا کن و نوشابه و سس رایگان بگیر!';
       } else {
-        hint.textContent = 'با ' + number.format(classicPrizeMoveLimit) + ' حرکت یا کمتر ببر و یه نوشابهٔ رایگان بگیر!';
+        hint.textContent = 'تا اماده شدن سفارشت بازی کن و با ' + number.format(classicPrizeMoveLimit) + ' حرکت یا کمتر ببر و یه نوشابهٔ رایگان بگیر!';
       }
       recordLabel.textContent = dailyMode ? 'رکورد امروز' : 'بهترین رکورد';
       best = restoreBest();
